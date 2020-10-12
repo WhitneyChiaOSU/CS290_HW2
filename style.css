@@ -1,0 +1,8 @@
+#first_column{
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
