@@ -6,3 +6,47 @@ table, th, td {
     border: 1px solid black;
     text-align: center;
   }
+
+.outer-content{
+    height: 60px;
+    text-align: left;
+    margin-top: 20px;
+    background-color: pink;
+    width: 75%;
+    position: relative;
+}
+
+.outer-content>.inner-content{
+    height: 20px;
+    text-align: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:skyblue;
+    position: absolute;
+    width: 75%;
+}
+
+.radio {
+    display: block;
+ }
+
+ 
+
+th{
+background-color:white;
+color:black;
+}
+
+/*citing the below, guided by https://stackoverflow.com/questions/3084261/alternate-table-row-color-using-css */
+
+tr:nth-child(odd){
+    background-color:skyblue;
+    color: #fff;
+}
+
+tr:nth-child(even){
+    background-color:orange;
+    color: #fff;
+}

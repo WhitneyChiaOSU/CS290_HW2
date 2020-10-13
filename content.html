@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <h2>Welcome to Whitney Chia's HW2!</h2>
+    <title>Whitney Chia HW2</title>
+    <hr>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <table>
         <caption>Multiplication Table</caption>
-        <tr>
-            <th></th>
+        <th>
             <th>1</th> 
             <th>2</th>
             <th>3</th>
             <th>4</th>
             <th>5</th>
-        </tr>
+        </th>
         <tr>
             <td id="first_column">1</td>
             <td>1</td>
@@ -70,5 +72,84 @@
     <li>Subtraction</li>
     <li>Division</li>
 </ul>
+<hr>
+
+<div class="outer-content">
+    <div class="inner-content">
+        I am the inner div that takes up 75% of the outer width centered
+    </div>
+</div>
+<hr>
+
+<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+    <fieldset>
+        <legend>Get Request:</legend>
+        <fieldset>
+        <label>Enter Text:
+            <input type="text" name="text_input" size="30" maxlength="100">
+        </label>
+        </fieldset>
+        <br />
+        <fieldset>
+        <label>Enter Number:
+            <input type="number" name="numerical_input" size="20" maxlength="20">
+        </label>
+        </fieldset>
+        <br />
+        <fieldset>
+        <label>Enter Password:
+            <input type="password" name="password_input" size="30" maxlength="100">
+        </label>
+    </fieldset>
+    <br/>
+    <fieldset>
+    <p>Please choose your desired Candy!
+        <br />
+        <label class="radio"> 
+            <input type="radio" name="candy" value="Snickers" />Snickers</label>
+        <label class="radio">
+            <input type="radio" name="candy" value="Skittles" />Skittle</label>
+        <label class="radio">
+            <input type="radio" name="candy" value="Mentos" />Mentos</label>
+        </p>
+        <input type="submit" value="Submit" />
+</fieldset>
+    </fieldset>
+
+    <hr>
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+        <fieldset>
+            <legend>Post Request:</legend>
+            <fieldset>
+            <label>Enter Text:
+                <input type="text" name="text_input" size="30" maxlength="100">
+            </label>
+            </fieldset>
+            <br />
+            <fieldset>
+            <label>Enter Number:
+                <input type="number" name="numerical_input" size="20" maxlength="20">
+            </label>
+            </fieldset>
+            <br />
+            <fieldset>
+            <label>Enter Password:
+                <input type="password" name="password_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+        <p>Please choose your desired Candy!
+            <br />
+            <label class="radio"> 
+                <input type="radio" name="candy" value="Snickers" />Snickers</label>
+            <label class="radio">
+                <input type="radio" name="candy" value="Skittles" />Skittle</label>
+            <label class="radio">
+                <input type="radio" name="candy" value="Mentos" />Mentos</label>
+            </p>
+            <input type="submit" value="Submit" />
+    </fieldset>
+        </fieldset>
 </body>
 </html>
